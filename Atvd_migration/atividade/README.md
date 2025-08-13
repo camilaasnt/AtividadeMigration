@@ -21,19 +21,19 @@
 
 <img width="599" height="104" alt="makemig" src="https://github.com/user-attachments/assets/4ce0798c-3c0b-4f9a-ae8d-5176936d00ed" />
 
-As tabelas foram criadas em atividade/database/migrations, conforme a imagem a seguir:
+**5)** As tabelas foram criadas em atividade/database/migrations, conforme a imagem a seguir:
 
 <img width="299" height="232" alt="migrations" src="https://github.com/user-attachments/assets/46fe7ae5-07c8-4bb5-b838-64df60232391" />
 
-Criaremos agora os campos da tabela e seu tipo de dados:
+**6)** Criaremos agora os campos da tabela e seu tipo de dados:
 
 <img width="499" height="425" alt="aluno" src="https://github.com/user-attachments/assets/9a2ec8a2-28e1-4104-aea7-5fc8f3bffbd0" />
 
-Para salvar essas modificações, execute este código:
+**7)** Para salvar essas modificações, execute este código:
 
 <img width="424" height="25" alt="phpartisan" src="https://github.com/user-attachments/assets/c07e4f52-a669-4ad8-8d65-11837971b18f" />
 
-Se entrarmos no phpMyAdmin, poderemos ver a tabela montada:
+**8)** Se entrarmos no phpMyAdmin, poderemos ver a tabela montada:
 
 <img width="424" height="25" alt="phpartisan" src="https://github.com/user-attachments/assets/5d7e51c1-5c7a-41ed-b03f-e23793a7bf83" />
 <img width="417" height="181" alt="phpmyadminh" src="https://github.com/user-attachments/assets/c17eb449-82b0-410b-9114-172c9251acd0" />
