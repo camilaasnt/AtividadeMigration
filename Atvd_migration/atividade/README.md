@@ -1,61 +1,39 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+## Atividade Migration - Tutorial
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+- Ative o xampp;
+- Crie uma pasta no xamp/htdocs;
+- Abra essa pasta no Visual Studio Code;
 
-## About Laravel
+Instale o laravel no seu projeto com o comando composer global require laravel/installer:
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<img width="413" height="211" alt="laravel" src="https://github.com/user-attachments/assets/b3b4b8ed-a72b-4621-87ae-e4edc8e1e034" />
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Escolha a opção "none": 
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<img width="370" height="221" alt="none" src="https://github.com/user-attachments/assets/6d91a696-5c13-4312-8226-95885db3da85" />
 
-## Learning Laravel
+Escolha a opção "mysql" , "yes" e "yes":
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<img width="606" height="246" alt="sqlll" src="https://github.com/user-attachments/assets/ee911e70-c27e-496f-915a-573e11268238" />
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Agora, vamos partir para a criação das migrações. Com o seguinte comando, você vai gerar a tabela Aluno, ele aparecerá no banco de dados e possibilitará todas as suas modificações.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<img width="599" height="104" alt="makemig" src="https://github.com/user-attachments/assets/4ce0798c-3c0b-4f9a-ae8d-5176936d00ed" />
 
-## Laravel Sponsors
+As tabelas foram criadas em sistema/database/migrations;
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+<img width="299" height="232" alt="migrations" src="https://github.com/user-attachments/assets/46fe7ae5-07c8-4bb5-b838-64df60232391" />
 
-### Premium Partners
+No arquivo aluno_migration, criaremos agora os campos da tabela e seu tipo de dados:
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+<img width="499" height="425" alt="aluno" src="https://github.com/user-attachments/assets/9a2ec8a2-28e1-4104-aea7-5fc8f3bffbd0" />
 
-## Contributing
+Para salvar essas modificações, execute este código:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<img width="424" height="25" alt="phpartisan" src="https://github.com/user-attachments/assets/c07e4f52-a669-4ad8-8d65-11837971b18f" />
 
-## Code of Conduct
+Se entrarmos no phpMyAdmin, poderemos ver a tabela montada:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<img width="424" height="25" alt="phpartisan" src="https://github.com/user-attachments/assets/5d7e51c1-5c7a-41ed-b03f-e23793a7bf83" />
+<img width="417" height="181" alt="phpmyadminh" src="https://github.com/user-attachments/assets/c17eb449-82b0-410b-9114-172c9251acd0" />
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
